@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Бренд Womazing</title>
+    <meta name class="description" content="Команда мечты - бренд Womazing">
+    <meta name="keywords" content="одежда, мода, коллекция одежда, свитшот, пальто, кардиганы, футболки">
+    <!-- OG Tags -->
+    <meta property="og:title" content="Бренд Womazing">
+    <meta property="og:description" content="Команда мечты - бренд Womazing">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://sitename.ru/img/prewiev.png">
+    <meta property="og:site_name" content="Womazing">
+    <!-- Styling -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <meta name="theme-color" content="#808590">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper__total">
+        <header class="header" id="header">
+            <div class="container">
+                <div class="header__navigation" id = "header__navigation">
+                    <a href="#" class="logo">
+                        <img src="assets/img/logo/logo.svg" alt="Womazing" class="logo__img">
+                    </a>
+                    <div class="header__burger">
+                        <span> Меню</span>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item">
+                                <a href="index.html" class="header__nav-link active">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="shop.html" class="header__nav-link">
+                                    Магазин
+                                </a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="about.html" class="header__nav-link">
+                                    О бренде
+                                </a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="contacts.html" class="header__nav-link">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__tel">
+                        <button type="button" class="header__tel-btn">
+                            <img src="assets/img/icon/tel.svg" alt="telephon" class="header__tel-img">
+                        </button>
+                        <div class="modal" id="modal">
+                            <div class="modal-overlay" id="modal-overlay"></div>
+                            <div class="modal-window">
+                                <button type="button" class="close" id="close">
+                                    <img src="assets/img/icon/close.svg" alt="" class="close-img">
+                                </button>
+                                <h3 class="modal__title">
+                                    Заказать обратный звонок
+                                </h3>
+                                <form action="#" class="form-order__modal  js-form" id="form-order__modal">
+                                    <input type="text" class="form-order__input" name="name" placeholder="Имя" required>
+                                    <input type="email" class="form-order__input" name="email" placeholder="Email" required>
+                                    <input type="tel" class="form-order__input" name="tel" placeholder="Телефон" required>
+                                    <button type="submit" class="form__btn-modal btn" data-submit>Заказать
+                                        звонок</button>
+                                </form>
+                            </div>
+                            <div class="modal-window2" id="modal-window2">
+                                <h3 class="modal__sms">
+                                    Отлично! Мы скоро вам перезвоним.
+                                </h3>
+                                <button type="button" class="modal__btn btn"> Закрыть</button>
+                            </div>
+                        </div>
+                        <a href="tel:+74958235412" class="header__tel-link">
+                            +7 (495) 823-54-12
+                        </a>
+                    </div>
+                    <div class="header__basket">
+                        <a href="basket.html" class="header__basket-link">
+                            <img src="assets/img/icon/basket.svg" alt="Basket" class="header__basket-img">
+                        </a>
+                        <span class="header__basket-num">
+                            3
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class = "main">
+            <section class="shop-product__card">
+                <div class="container">
+                    <h1 class="shop__title">
+                        Пальто USA
+                    </h1>
+                    <ul class="shop__items breadcrumbs">
+                        <li class="shop__item breadcrumbs-item">
+                            <a href="index.html" class="shop__item-nav breadcrumbs-link">
+                                Главная
+                            </a>
+                        </li>
+                        <li class="shop__item breadcrumbs-item">
+                            <a href="#" class="shop__item-nav breadcrumbs-link">
+                                Пальто
+                            </a>
+                        </li>
+                        <li class="shop__item  breadcrumbs-item active">
+                            <span class="shop__item-text breadcrumbs-link">
+                                Пальто USA
+                            </span>
+                        </li>
+                    </ul>
+                    <div class="product__wrap">
+                        <img src="assets/img/shop/coat3.jpg" alt="Пальто USA" class="product__photo-img">
+                        <div class="product__option">
+                            <div class="product__prices card">
+                                <span class="product__price price-old card">
+                                    $229
+                                </span>
+                                <span class="product__price card">
+                                    $129
+                                </span>
+                            </div>
+                            <h4 class="product__title card">
+                                Выберите размер
+                            </h4>
+                            <div class="product__input">
+                                <div class="product__size-item">
+                                    <input type="radio" name="size" id="size-1">
+                                    <label for="size-1">S</label>
+                                </div>
+                                <div class="product__size-item active">
+                                    <input type="radio" name="size" id="size-2">
+                                    <label for="size-2">M</label>
+                                </div>
+                                <div class="product__size-item">
+                                    <input type="radio" name="size" id="size-3">
+                                    <label for="size-3">L</label>
+                                </div>
+                                <div class="product__size-item">
+                                    <input type="radio" name="size" id="size-4">
+                                    <label for="size-4">XL</label>
+                                </div>
+                                <div class="product__size-item">
+                                    <input type="radio" name="size" id="size-5">
+                                    <label for="size-5">XLL</label>
+                                </div>
+                            </div>
+                            <h4 class="product__title card">
+                                Выберите цвет
+                            </h4>
+                            <div class="product__input">
+                                <div class="product__color-item">
+                                    <input type="radio" name="color" id="color-1">
+                                    <label for="color-1" class = "brown"></label>
+                                </div>
+                                <div class="product__color-item active">
+                                    <input type="radio" name="color" id="color-2">
+                                    <label for="color-2" class = "grey active"></label>
+                                </div>
+                                <div class="product__color-item">
+                                    <input type="radio" name="color" id="color-3">
+                                    <label for="color-3" class = "pink"></label>
+                                </div>
+                                <div class="product__color-item">
+                                    <input type="radio" name="color" id="color-4">
+                                    <label for="color-4" class = "orange"></label>
+                                </div>
+                            </div>
+                            <div class="product__ordered">
+                                <input type="number" class = "product__amount" min = "1" step="1" placeholder="1"  required>
+                                <button type="button" class = "button__basket btn">Добавить в корзину</button>
+                            </а>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="product__related">
+                        <h2 class="cards__title">
+                            Связанные товары
+                        </h2>
+                        <div class="products__cards">
+                            <div class="product__card card" data-product="1">
+                                <div class="product__card-photo">
+                                    <img src="assets/img/shop/coat1.jpg" alt="Пальто" class="product__img">
+                                    <div class="photo-overlay">
+                                        <a href="#" class="photo__overlay-arrow">
+                                            <img src="assets/img/icon/right.svg" alt="Стрелка вправо" class="overlay-arrow">
+                                        </a>
+                                    </div>
+                                </div>
+                                <h4 class="product__title">
+                                    Пальто Glow
+                                </h4>
+                                <span class="product__price">
+                                    $129
+                                </span>
+                            </div>
+                            <div class="product__card card" data-product="1">
+                                <div class="product__card-photo">
+                                    <img src="assets/img/shop/coat2.jpg" alt="Пальто" class="product__img">
+                                    <div class="photo-overlay">
+                                        <a href="#" class="photo__overlay-arrow">
+                                            <img src="assets/img/icon/right.svg" alt="Стрелка вправо" class="overlay-arrow">
+                                        </a>
+                                    </div>
+                                </div>
+                                <h4 class="product__title">
+                                    Пальто Sweet
+                                </h4>
+                                <span class="product__price">
+                                    $129
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="footer-wrap">
+                    <div class="footer__policy">
+                        <a href="#" class="logo">
+                            <img src="assets/img/logo/logo.svg" alt="Womazing" class="footer__logo-img">
+                        </a>
+                        <span class="footer__policy-copyright">
+                            © Все права защищены
+                        </span>
+                        <a href="#" class="footer__policy-konf">
+                            Политика конфиденциальности
+                        </a>
+                        <a href="#" class="footer__policy-oferta">
+                            Публичная оферта
+                        </a>
+                    </div>
+                    <nav class="footer__nav">
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a href="index.html" class="footer__nav-link active">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="#" class="footer__nav-link footer__nav-link-shop">
+                                    Магазин
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="sub-menu__item">
+                                        <a href="#" class="sub-menu__link">
+                                            Пальто
+                                        </a>
+                                    </li>
+                                    <li class="sub-menu__item">
+                                        <a href="#" class="sub-menu__link">
+                                            Свитшоты
+                                        </a>
+                                    </li>
+                                    <li class="sub-menu__item">
+                                        <a href="#" class="sub-menu__link">
+                                            Кардиганы
+                                        </a>
+                                    </li>
+                                    <li class="sub-menu__item">
+                                        <a href="#" class="sub-menu__link">
+                                            Толстовки
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="about.html" class="footer__nav-link">
+                                    О бренде
+                                </a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="contacts.html" class="footer__nav-link">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer__contact">
+                        <a href="tel:+74958235412" class="footer__tel-link">
+                            +7 (495) 823-54-12
+                        </a>
+                        <a href="mailto:hello@womazing.com" class="footer__email">
+                            hello@womazing.com
+                        </a>
+                        <div class="footer__social">
+                            <a href="#" rel="nofollow noopener noreferrer" target="_blank" class="footer__social-item">
+                                <img src="assets/img/icon/instagram.svg" alt="Instagramm">
+                            </a>
+                            <a href="#" rel="nofollow noopener noreferrer" target="_blank" class="footer__social-item">
+                                <img src="assets/img/icon/fb.svg" alt="Facebook">
+                            </a>
+                            <a href="#" rel="nofollow noopener noreferrer" target="_blank" class="footer__social-item">
+                                <img src="assets/img/icon/twitter.svg" alt="Twitter">
+                            </a>
+                        </div>
+                        <img src="assets/img/icon/visa-mastercard.png" alt="Оплата" class="footer__payment">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script/jquery-3.5.1.min.js"></script>
+    <script src="script/jquery.validate.min.js"></script>
+    <script src="scripr/swiper.js"></script>
+    <script src="script/main.js"></script>
+    </body>
+    
+    </html>
